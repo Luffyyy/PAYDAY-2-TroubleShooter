@@ -3,7 +3,6 @@
 
 #include <Windows.h>
 #include <fstream>
-#include "myfuncs.h"
 
 // See superblt_flat.h for a description of what these functions do
 
@@ -17,21 +16,7 @@ void MoveCrashlog() {
 	auto cs = s.c_str();
 	bool b = CopyFile(cs, "mods\\TroubleShooter\\EnterHere\\crash.txt", 0);
 	if (!b) {
-		void* lpBuffer;
-
-		FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM,
-			NULL,
-			::GetLastError(),
-			MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-			(LPTSTR)&lpBuffer,
-			0,
-			NULL);
-
-		MessageBox(NULL, (LPCTSTR)lpBuffer, "Error", MB_OK);
-		LocalFree(lpBuffer);
-	}
-	else {
-		PD2HOOK_LOG_LOG("Okay");
+		PD2HOOK_LOG_ERROR("Something went wrong while trying to move the crashlog");
 	}
 }
 
@@ -60,19 +45,8 @@ int Plugin_PushLua(lua_State *L) {
 	// read the Lua 5.1 manual:	http://www.lua.org/manual/5.1/manual.html
 	// (note that on Windows, only some of the functions in the manual are avaiable).
 
-	// Create a Lua table
-	lua_newtable(L);
-
-	// Add a hello-world string to it
-	lua_pushstring(L, "Hello, World!");
-	lua_setfield(L, -2, "mystring");
-
-	// Add a C function to it
-	lua_pushcfunction(L, say_hello);
-	lua_setfield(L, -2, "myfunction");
-
 	// Now return the table to Lua
-	return 1;
+	return 0;
 
 	// Now, this Lua:
 
