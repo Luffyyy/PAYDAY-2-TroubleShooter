@@ -32,16 +32,17 @@ void MoveLogs() {
 	string env = getenv("LOCALAPPDATA");
 	string crashPath = env+"\\PAYDAY 2\\crash.txt";
 
-	//Force BLT to save the log so important information isn't cut :P
 	PD2HOOK_LOG_LOG("Copying crashlog!");
-	for (int i = 0; i < 20; i++) {
-		PD2HOOK_LOG_LOG("..............................................................");
-	}
-
 	if (FileExists(crashPath) && !CopyFile(crashPath.c_str(), "mods\\TroubleShooter\\EnterHere\\crash.txt", 0))
 		PD2HOOK_LOG_ERROR("Something went wrong while trying to copy the crashlog");
 
 	string logPath = "mods\\logs\\"+GetDateString()+"_log.txt";
+
+	//Force BLT to save the log so important information isn't cut :P
+	PD2HOOK_LOG_LOG("Copying log!");
+	for (int i = 0; i < 20; i++) {
+		PD2HOOK_LOG_LOG("..............................................................");
+	}
 
 	if (!FileExists(logPath)) {
 		PD2HOOK_LOG_ERROR(logPath.c_str());
