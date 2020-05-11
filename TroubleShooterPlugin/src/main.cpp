@@ -1,28 +1,59 @@
 // Include SuperBLT
 #include <superblt_flat.h>
 
-#include <Windows.h>
+#include <windows.h>
 #include <fstream>
+#include <ctime>
+
+using namespace std;
 
 // See superblt_flat.h for a description of what these functions do
 
+#define localtime_r(time, out) localtime_s(out, time)
 
-//Returns the last Win32 error, in string format. Returns an empty string if there is no error.
+//Taken from SBLT's code.
+std::string GetDateString() {
+	std::time_t currentTime = time(0);
+	std::tm now;
+	localtime_r(&currentTime, &now);
 
-void MoveCrashlog() {
-	std::string s;
-	s = getenv("LOCALAPPDATA");
-	s += "\\PAYDAY 2\\crash.txt";
-	auto cs = s.c_str();
-	bool b = CopyFile(cs, "mods\\TroubleShooter\\EnterHere\\crash.txt", 0);
-	if (!b) {
-		PD2HOOK_LOG_ERROR("Something went wrong while trying to move the crashlog");
+	char datestring[100];
+	std::strftime(datestring, sizeof(datestring), "%Y_%m_%d", &now);
+	return datestring;
+}
+
+bool FileExists(const string& dir) {
+	DWORD attr = GetFileAttributes(dir.c_str());
+	return (attr != INVALID_FILE_ATTRIBUTES && !(attr & FILE_ATTRIBUTE_DIRECTORY));
+}
+
+
+void MoveLogs() {
+	string env = getenv("LOCALAPPDATA");
+	string crashPath = env+"\\PAYDAY 2\\crash.txt";
+
+	//Force BLT to save the log so important information isn't cut :P
+	PD2HOOK_LOG_LOG("Copying crashlog!");
+	for (int i = 0; i < 20; i++) {
+		PD2HOOK_LOG_LOG("..............................................................");
 	}
+
+	if (FileExists(crashPath) && !CopyFile(crashPath.c_str(), "mods\\TroubleShooter\\EnterHere\\crash.txt", 0))
+		PD2HOOK_LOG_ERROR("Something went wrong while trying to copy the crashlog");
+
+	string logPath = "mods\\logs\\"+GetDateString()+"_log.txt";
+
+	if (!FileExists(logPath)) {
+		PD2HOOK_LOG_ERROR(logPath.c_str());
+		PD2HOOK_LOG_ERROR("Couldn't copy the BLT log: File doesn't exist.");
+	}
+	else if (!CopyFile(logPath.c_str(), "mods\\TroubleShooter\\EnterHere\\log.txt", 0))
+		PD2HOOK_LOG_ERROR("Couldn't copy the BLT log.");
 }
 
 void Plugin_Init() {
 	// Put your one-time initialization code here
-	std::atexit(MoveCrashlog);
+	std::atexit(MoveLogs);
 }
 
 void Plugin_Update() {
