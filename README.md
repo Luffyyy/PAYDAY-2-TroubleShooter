@@ -1,2 +1,2 @@
 # PAYDAY-2-TroubleShooter
-A trouble shooting helping for payday 2
+A trouble shooting helper for payday 2
