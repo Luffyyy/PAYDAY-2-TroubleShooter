@@ -1,0 +1,8 @@
+{
+    "name": "Trouble Shooter",
+    "author": "Luffy",
+    "priority" : 9999999999999999999,
+    "pre_hooks": [
+        {"hook_id" : "core/lib/system/coresystem", "script_path" : "Ignore/Core.lua"}
+    ]
+}

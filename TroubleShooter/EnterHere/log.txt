@@ -1,0 +1,102 @@
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/A bunch of judge attachments/
+05/11/20 10:40:08: [MK18 Specialist][ERROR] [AddFiles] File does not exist! assets/mod_overrides/MK18 Specialist/Assets/units/mods/weapons/wpn_fps_ass_mk18s_pts/smol_df.texture
+05/11/20 10:40:08: [MK18 Specialist][ERROR] [AddFiles] File does not exist! assets/mod_overrides/MK18 Specialist/Assets/units/mods/weapons/wpn_fps_ass_mk18s_pts/smol_nm.texture
+05/11/20 10:40:08: [MK18 Specialist][ERROR] [AddFiles] File does not exist! assets/mod_overrides/MK18 Specialist/Assets/guis/mod_icons/mk18s.texture
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/MK18 Specialist/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Micro Deagle/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/MGSV Deployment  BGM/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Max the Crocodile/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/RaccoonGirl/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/STF-12/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Remington Spartan Ultra Short/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/TBP TingleDingle-15 Ultimate Space Assault Rifle/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Tamamo no Mae LAS/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/TF2 Shotgun Pack/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Legendary Armour Skins/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/GG_Shovel/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Astolfo - Uniform Coordinate LAS/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/ALTWAVE - Burning September/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/AK-12/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/K-On OST/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/AUG A3 9mm XS/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Deck-ARD/
+05/11/20 10:40:08: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Borderlands 2 Assault Rifles/
+05/11/20 10:40:08: [BeardLib][ERROR] File does not exist! assets/mod_overrides/FIghtLite Raider/assets/units/mods/weapons/wpn_fps_pis_raider_pts/stanag_df.texture
+05/11/20 10:40:08: [BeardLib][ERROR] File does not exist! assets/mod_overrides/FIghtLite Raider/assets/units/mods/weapons/wpn_fps_pis_raider_pts/stanag_nm.texture
+05/11/20 10:40:08: [SCR Raider][ERROR] [AddFiles] File does not exist! assets/mod_overrides/FIghtLite Raider/assets/units/mods/weapons/wpn_fps_pis_raider_pts/wpn_fps_pis_raider_m_stanag10.unit
+05/11/20 10:40:08: [SCR Raider][ERROR] [AddFiles] File does not exist! assets/mod_overrides/FIghtLite Raider/assets/units/mods/weapons/wpn_fps_pis_raider_pts/wpn_fps_pis_raider_m_stanag10.model
+05/11/20 10:40:08: [SCR Raider][ERROR] [AddFiles] File does not exist! assets/mod_overrides/FIghtLite Raider/assets/units/mods/weapons/wpn_fps_pis_raider_pts/wpn_fps_pis_raider_m_stanag10.object
+05/11/20 10:40:08: [SCR Raider][ERROR] [AddFiles] File does not exist! assets/mod_overrides/FIghtLite Raider/assets/units/mods/weapons/wpn_fps_pis_raider_pts/wpn_fps_pis_raider_m_stanag10.material_config
+05/11/20 10:40:08: [SCR Raider][ERROR] [AddFiles] File does not exist! assets/mod_overrides/FIghtLite Raider/assets/units/mods/weapons/wpn_fps_pis_raider_pts/wpn_fps_pis_raider_m_stanag10_thq.material_config
+05/11/20 10:40:09: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/FIghtLite Raider/
+05/11/20 10:40:09: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/F90MBR Body/
+05/11/20 10:40:09: [BeardLib] [Add Framework] Initialized Mod: assets/mod_overrides/Widowmaker TX/
+05/11/20 10:40:09: [BeardLib] [Base Framework] Initialized Mod: mods/BeardLib-Editor/
+05/11/20 10:40:09: [BeardLib] [Base Framework] Initialized Mod: mods/Legendary Armour Skins/
+05/11/20 10:40:09: [BeardLib] [Base Framework] Initialized Mod: mods/Raid Minigame/
+05/11/20 10:40:09: [BeardLib] [Base Framework] Initialized Mod: mods/WeaponLib/
+05/11/20 10:40:09: [BeardLib] [Base Framework] Initialized Mod: mods/Custom Weapon Animations Fixes/
+05/11/20 10:40:09: [HoloUI] Loaded Textures
+05/11/20 10:40:09: [BeardLib] [Base Framework] Initialized Mod: mods/Holo/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Could not read Maps/backups/main.xml
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/Deathrun/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/someproject/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/test/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/test2/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/somemap/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/mc_jewlerystore/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/minigametesting/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/empty/
+05/11/20 10:40:09: [BeardLib] [Map Framework] Initialized Mod: Maps/testepichaihai/
+05/11/20 10:40:09: [SCR Raider][ERROR] [WeaponMod] Unit units/mods/weapons/wpn_fps_pis_raider_pts/wpn_fps_pis_raider_m_stanag10 of part wpn_fps_pis_raider_m_stanag10 is not loaded.
+05/11/20 10:40:09: [ERROR] wpn_fps_pis_raider Missing stance_mod data for: wpn_fps_upg_o_45rds wpn_fps_smg_olympic
+05/11/20 10:40:09: [ERROR] wpn_fps_pis_raider Missing stance_mod data for: wpn_fps_upg_o_45rds_v2 wpn_fps_smg_olympic
+05/11/20 10:40:09: [ERROR] wpn_fps_pis_raider Missing stance_mod data for: wpn_fps_upg_o_45steel wpn_fps_smg_olympic
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_upg_deckard_ammo_damage_high' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_shot_russian_riot_body' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_shot_frontierjustice_body' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_bl2ar_attach_stock_magsize' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_bl2ar_bandit_stock' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_bl2ar_torgue_barrel' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_bl2ar_vladof_barrel_minigun' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_bl2ar_vladof_parts' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_upg_ak12_barrel_svk12' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_bl2ar_vladof_barrel' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_upg_ak12_barrel_ak12u' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_bl2ar_jakobs_loader' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [WeaponLib] [Backwards Compatibility] WARNING: 'wpn_fps_bl2ar_jakobs_barrel' is using outdated/deprecated tweak data!
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon pinkie_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/pinkie_crew
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon shot_tf2_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/shot_tf2_crew
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon stf12_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/stf12_crew
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon mk18s_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/mk18s_crew
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon littlest_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/littlest_crew
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon tingledingle_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/tingledingle_crew
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon shot_tf2_2_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/shot_tf2_2_crew
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon wmtx_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/wmtx_crew
+05/11/20 10:40:09: [BeardLib][ERROR] Icon for weapon raider_crew doesn't exist path: guis/textures/pd2/blackmarket/icons/weapons/raider_crew
+05/11/20 10:40:09: Loading mod settings : nil
+05/11/20 10:40:09: [CustomOST] [DevLog] : Core ended correctly !
+05/11/20 10:40:09: [CustomOST] [DevLog] : Tracks localization loaded !
+05/11/20 10:40:09: [CustomOST] [DevLog] : Tracks tweaks loaded !
+05/11/20 10:40:09: [BeardLib-Editor] Loading DBPaths
+05/11/20 10:40:09: [BeardLib-Editor] DBPaths already loaded
+05/11/20 10:40:10: [BeardLib] [Fixes][Warning] Weapon with the factory ID wpn_fps_shot_tf2 has the part wpn_fps_shot_tf2_no_stats defined but the part does not exist
+05/11/20 10:40:10: [Updates] Received update data for 'VeryCoolUniqueModName'
+05/11/20 10:40:10: [Updates] Received update data for 'VeryCoolUniqueModName2'
+05/11/20 10:40:10: [Updates] Comparing hash data for VeryCoolUniqueModName2:
+Server: a6f44311120c05a8673d606e13e9b909667e9b7ef62a556ccc074369799d0107
+ Local: a6f44311120c05a8673d606e13e9b909667e9b7ef62a556ccc074369799d0107
+05/11/20 10:40:11: [Updates] Received update data for 'customostmodbynate'
+05/11/20 10:40:11: [Updates] Comparing hash data for customostmodbynate:
+Server: b8ca14a045ec614dac70857a5c872451138623de6786d52fddd834e45a56181b
+ Local: db317208d3a4417dcb8cbe81f2f901d573a1a3f6958705efe3409475fdc24848
+05/11/20 10:40:11: [Downloads] Added pending download for Custom OST (Custom OST)
+05/11/20 10:40:11: [Updates] Received update data for 'payday2blt'
+05/11/20 10:40:11: [Updates] Comparing hash data for payday2blt:
+Server: 5157f526ff00afe903cfdbd3fda37ca14c9c0e6525e945ba71c9f0e7ce69c0f6
+ Local: a1a5b8d25169580c9c94b91a205359a04a213f9dfed08174f634564a39b996c3
+05/11/20 10:40:11: [Downloads] Added pending download for SuperBLT (SuperBLT)
+05/11/20 10:40:11: [Updates] Received update data for 'payday2bltwsockdll'
+05/11/20 10:40:11: [Updates] Comparing hash data for payday2bltwsockdll:
+Server: 2bde11b432e7684d2aa2bcd06fc4a629dbbde11984f2593c4e692f7d1e5517ee
+ Local: 2bde11b432e7684d2aa2bcd06fc4a629dbbde11984f2593c4e692f7d1e5517ee
