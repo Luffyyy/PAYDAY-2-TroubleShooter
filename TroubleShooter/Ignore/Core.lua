@@ -2,8 +2,13 @@
 local ModPath = ModPath
 
 -- Replace the log function to accurately log things.
-SystemFS:delete_file(ModPath.."/EnterHere/log.txt")
-local data_file = io.open(ModPath.."/EnterHere/data.txt", "w")
+local enter_here = ModPath.."/EnterHere"
+if not SystemFS:exists(enter_here) then
+    SystemFS:make_dir(enter_here)
+end
+
+SystemFS:delete_file(enter_here.."/log.txt")
+local data_file = io.open(enter_here.."/data.txt", "w")
 
 local function data_entry(str, ...)
     data_file:write(string.format(str.."\n", ...))
